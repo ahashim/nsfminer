@@ -427,11 +427,11 @@ class MinerCLI {
                 "Value expressed in milliseconds. "
                 "It has no meaning in stratum mode")
 
-            ("retry-delay", value<unsigned>()->default_value(0),
+            ("retry-delay", value<unsigned>()->default_value(60),
 
                 "Delay in seconds before reconnection retry")
 
-            ("retry-max", value<unsigned>()->default_value(3),
+            ("retry-max", value<unsigned>()->default_value(0),
 
                 "Set number of reconnection retries to same pool. "
                 "Set to 0 for infinite retries.")
@@ -455,7 +455,7 @@ class MinerCLI {
 
                 "Statistic display interval in seconds")
 
-            ("HWMON", value<unsigned>()->default_value(0)->notifier(on_hwmon),
+            ("HWMON", value<unsigned>()->default_value(2)->notifier(on_hwmon),
 
                 "GPU hardware monitoring level. Can be one of:\n"
                 "0 - No monitoring\n"
@@ -542,7 +542,7 @@ class MinerCLI {
 
                 "Set the block size, valid values are 32, 64, 128, or 256")
 
-            ("cu-streams", value<unsigned>()->default_value(2)->notifier(on_cu_streams),
+            ("cu-streams", value<unsigned>()->default_value(4)->notifier(on_cu_streams),
 
                 "Set the number of streams per GPU, valid values 1, 2 or 4");
 #endif
