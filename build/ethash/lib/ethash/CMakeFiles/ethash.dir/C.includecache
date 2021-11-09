@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ethash/include/ethash/ethash.h
+ethash/hash_types.h
+-
+stdbool.h
+-
+stdint.h
+-
+
+../ethash/include/ethash/hash_types.h
+stdint.h
+-
+
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/ethash/primes.c
+primes.h
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/ethash/primes.h
+
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/ethash/primes.h
+ethash/ethash.h
+-
+

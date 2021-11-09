@@ -1,0 +1,2 @@
+/home/a-rock/Development/miners/src/nsfminer/build/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/rebuild_cache.dir
+/home/a-rock/Development/miners/src/nsfminer/build/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/edit_cache.dir

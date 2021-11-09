@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcuda.a CMakeFiles/cuda.dir/CUDAMiner.cpp.o CMakeFiles/cuda.dir/cuda_generated_ethash_cuda_miner_kernel.cu.o
+/usr/bin/ranlib libcuda.a

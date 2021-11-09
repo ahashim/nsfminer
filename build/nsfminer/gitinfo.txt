@@ -1,0 +1,3 @@
+v1.3.13-19-g3bbc66f330763c6abc5316c5db754e1c6530cb3d-dirty
+master
+git@github.com:ahashim/nsfminer.git

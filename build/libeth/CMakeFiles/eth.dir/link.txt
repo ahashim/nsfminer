@@ -1,0 +1,2 @@
+/usr/bin/ar qc libeth.a CMakeFiles/eth.dir/EthashAux.cpp.o CMakeFiles/eth.dir/Farm.cpp.o CMakeFiles/eth.dir/Miner.cpp.o
+/usr/bin/ranlib libeth.a

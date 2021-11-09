@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+df84d5186871581c681845fc288191b0 CMakeFiles/nsfminer-buildinfo-git
+89d1c830c20febbab0a771a5a8e25817 libcuda/CMakeFiles/cuda.dir/cuda_generated_ethash_cuda_miner_kernel.cu.o
+f85f57ba98fd1e2965efa887cf007470 nsfminer/buildinfo.c

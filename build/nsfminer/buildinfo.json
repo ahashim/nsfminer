@@ -1,0 +1,10 @@
+{
+  "name": "nsfminer",
+  "version": "1.3.14+commit.3bbc66f3.dirty",
+  "is_prerelease": true,
+  "commit": "3bbc66f330763c6abc5316c5db754e1c6530cb3d",
+  "branch": "master",
+  "repo": "git@github.com:ahashim/nsfminer.git",
+  "system_name": "linux",
+  "system_processor": "x86_64"
+}

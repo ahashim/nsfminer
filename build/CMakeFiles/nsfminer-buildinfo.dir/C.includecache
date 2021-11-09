@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/a-rock/Development/miners/src/nsfminer/build/nsfminer/buildinfo.c
+buildinfo.h
+/home/a-rock/Development/miners/src/nsfminer/build/nsfminer/buildinfo.h
+
+/home/a-rock/Development/miners/src/nsfminer/build/nsfminer/buildinfo.h
+

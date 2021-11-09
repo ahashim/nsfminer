@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ethash/include/ethash/hash_types.h
+stdint.h
+-
+
+../ethash/include/ethash/keccak.h
+ethash/hash_types.h
+-
+stddef.h
+-
+
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/keccak/keccak.c
+../support/attributes.h
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/support/attributes.h
+ethash/keccak.h
+-
+string.h
+-
+
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/keccak/keccakf800.c
+ethash/keccak.h
+-
+
+/home/a-rock/Development/miners/src/nsfminer/ethash/lib/support/attributes.h
+

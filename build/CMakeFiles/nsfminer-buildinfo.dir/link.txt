@@ -1,0 +1,2 @@
+/usr/bin/ar qc nsfminer/libnsfminer-buildinfo.a CMakeFiles/nsfminer-buildinfo.dir/nsfminer/buildinfo.c.o
+/usr/bin/ranlib nsfminer/libnsfminer-buildinfo.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkeccak.a CMakeFiles/keccak.dir/keccak.c.o CMakeFiles/keccak.dir/keccakf800.c.o
+/usr/bin/ranlib libkeccak.a
