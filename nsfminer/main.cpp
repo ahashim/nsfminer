@@ -542,7 +542,7 @@ class MinerCLI {
 
                 "Set the block size, valid values are 32, 64, 128, or 256")
 
-            ("cu-streams", value<unsigned>()->default_value(4)->notifier(on_cu_streams),
+            ("cu-streams", value<unsigned>()->default_value(2)->notifier(on_cu_streams),
 
                 "Set the number of streams per GPU, valid values 1, 2 or 4");
 #endif
